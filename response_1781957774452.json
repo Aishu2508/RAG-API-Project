@@ -1,0 +1,57 @@
+{
+  "user_query": "Mobile with good RAM",
+  "all_chunks_created": {
+    "chunk1": "\n    Mobile Name: iPhone 16\n    Price: 90000\n    Camera: 48MP\n    Battery: 4500mAh\n    RAM: 8GB\n    ",
+    "chunk2": "\n    Mobile Name: OnePlus 13\n    Price: 70000\n    Camera: 50MP\n    Battery: 6000mAh\n    RAM: 16GB\n    ",
+    "chunk3": "\n    Mobile Name: Samsung S25\n    Price: 85000\n    Camera: 200MP\n    Battery: 5000mAh\n    RAM: 12GB\n    "
+  },
+  "retrieved_chunks": {
+    "retrieved_chunk1": "\n    Mobile Name: iPhone 16\n    Price: 90000\n    Camera: 48MP\n    Battery: 4500mAh\n    RAM: 8GB\n    ",
+    "retrieved_chunk2": "\n    Mobile Name: OnePlus 13\n    Price: 70000\n    Camera: 50MP\n    Battery: 6000mAh\n    RAM: 16GB\n    ",
+    "retrieved_chunk3": "\n    Mobile Name: Samsung S25\n    Price: 85000\n    Camera: 200MP\n    Battery: 5000mAh\n    RAM: 12GB\n    "
+  },
+  "top_most_recommendation": {
+    "model_name": "tinyllama",
+    "mobile_name": "iPhone 16",
+    "price": "90000",
+    "camera": "48MP",
+    "battery": "4500mAh",
+    "ram": "8GB",
+    "score": 95,
+    "model_suggestion": "iPhone 16 is recommended because it provides 48MP camera, 8GB RAM and 4500mAh battery."
+  },
+  "model_recommendation": "iPhone 16 is recommended because it provides 48MP camera, 8GB RAM and 4500mAh battery.",
+  "total_suggestions": 3,
+  "all_ranked_suggestions": [
+    {
+      "model_name": "tinyllama",
+      "mobile_name": "iPhone 16",
+      "price": "90000",
+      "camera": "48MP",
+      "battery": "4500mAh",
+      "ram": "8GB",
+      "score": 95,
+      "model_suggestion": "iPhone 16 is recommended because it provides 48MP camera, 8GB RAM and 4500mAh battery."
+    },
+    {
+      "model_name": "qwen2.5:0.5b",
+      "mobile_name": "OnePlus 13",
+      "price": "70000",
+      "camera": "50MP",
+      "battery": "6000mAh",
+      "ram": "16GB",
+      "score": 90,
+      "model_suggestion": "OnePlus 13 is recommended because it provides 50MP camera, 16GB RAM and 6000mAh battery."
+    },
+    {
+      "model_name": "smollm2:360m",
+      "mobile_name": "Samsung S25",
+      "price": "85000",
+      "camera": "200MP",
+      "battery": "5000mAh",
+      "ram": "12GB",
+      "score": 85,
+      "model_suggestion": "Samsung S25 is recommended because it provides 200MP camera, 12GB RAM and 5000mAh battery."
+    }
+  ]
+}
